@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.contenedor input{
+    border-radius: 5px;
+    border: 1px solid;
+    border-color:lime;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton{
+    width: 10rem;
+    height: 2rem;  
+    border-radius: 7px;
+    border-color: aqua;
+    background-color: white;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
